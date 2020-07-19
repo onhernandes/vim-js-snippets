@@ -1,0 +1,45 @@
+priority 100
+
+# JSON
+snippet js "JSON.stringify" i
+JSON.stringify($1, null, 2)$0
+endsnippet
+
+snippet jp "JSON.parse" i
+JSON.parse($1)$0
+endsnippet
+
+# Object
+snippet hop "hasOwnProperty" i
+hasOwnProperty($1)$0
+endsnippet
+
+# Modules
+snippet me "module.exports" b
+module.exports = $0
+endsnippet
+
+snippet cr "const require" b
+const $1 = require('$1')$0
+endsnippet
+
+# Misc
+snippet t "Ternary" i
+(${1:a>b}) ? ${2:true} : ${3:false};$0
+endsnippet
+
+snippet cl "console.log" b
+console.log($1)$0
+endsnippet
+
+snippet cw "console.warn" b
+console.warn($1)$0
+endsnippet
+
+snippet c "const" b
+const $1 = $0
+endsnippet
+
+snippet l "let" b
+let $1 = $0
+endsnippet

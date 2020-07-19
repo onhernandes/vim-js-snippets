@@ -1,0 +1,23 @@
+snippet Op "Sequelize Op" b
+const Op = require('sequelize').Op$1
+endsnippet
+
+snippet Op.eq "Sequelize Op.eq" b
+$1: {
+  [Op.eq]: $2
+}$0
+endsnippet
+
+snippet Op.in "Sequelize Op.in" b
+$1: {
+  [Op.in]: $2
+}$0
+endsnippet
+
+snippet oid "ObjectId" b
+ObjectId($1)$2
+endsnippet
+
+snippet roid "require ObjectId" b
+const ObjectId = require('mongoose').Types.ObjectId$1
+endsnippet
