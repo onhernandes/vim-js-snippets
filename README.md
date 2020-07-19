@@ -104,7 +104,7 @@ if ($1) {
 ### [fun] function
 
 ```javascript
-function $1($2) {
+function $1 ($2) {
 	${0:${VISUAL}}
 }
 ```
@@ -120,7 +120,7 @@ function $1($2) {
 ### [mf] prototype method function
 
 ```javascript
-$1.prototype.$2 = function $2($4) {
-	${0:${VISUAL}}
+$1.prototype.$2 = function $2 ($4) {
+${0:${VISUAL}}
 }
 ```
