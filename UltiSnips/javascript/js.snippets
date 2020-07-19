@@ -29,11 +29,11 @@ snippet t "Ternary" i
 endsnippet
 
 snippet cl "console.log" b
-console.log($1)$0
+console.log(${1:${VISUAL}})$0
 endsnippet
 
 snippet cw "console.warn" b
-console.warn($1)$0
+console.warn(${1:${VISUAL}})$0
 endsnippet
 
 snippet c "const" b
@@ -46,6 +46,24 @@ endsnippet
 
 snippet if "if " i
 if ($1) {
-$0
+	${0:${VISUAL}}
+}
+endsnippet
+
+snippet fun "function ()" i
+function $1($2) {
+	${0:${VISUAL}}
+}
+endsnippet
+
+snippet af "() => {}" i
+($1) => {
+	${0:${VISUAL}}
+}
+endsnippet
+
+snippet mf "Fun.prototype.method" i
+$1.prototype.$2 = function $2($4) {
+	${0:${VISUAL}}
 }
 endsnippet

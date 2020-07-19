@@ -92,3 +92,35 @@ const $1 = $0
 ```javascript
 let $1 = $0
 ```
+
+### [if] if
+
+```javascript
+if ($1) {
+	${0:${VISUAL}}
+}
+```
+
+### [fun] function
+
+```javascript
+function $1($2) {
+	${0:${VISUAL}}
+}
+```
+
+### [af] arrow function
+
+```javascript
+($1) => {
+	${0:${VISUAL}}
+}
+```
+
+### [mf] prototype method function
+
+```javascript
+$1.prototype.$2 = function $2($4) {
+	${0:${VISUAL}}
+}
+```
