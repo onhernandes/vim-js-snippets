@@ -124,3 +124,29 @@ $1.prototype.$2 = function $2 ($4) {
 ${0:${VISUAL}}
 }
 ```
+
+## Test snippets
+
+### [des] describe()
+
+```javascript
+describe('$1', () => {
+	${0:${VISUAL}}
+})
+```
+
+### [it] it()
+
+```javascript
+it('$1', () => {
+	${0:${VISUAL}}
+})
+```
+
+### [test] test()
+
+```javascript
+test('$1', () => {
+	${0:${VISUAL}}
+})
+```
