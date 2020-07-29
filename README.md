@@ -63,6 +63,12 @@ hasOwnProperty($1)
 module.exports = $0
 ```
 
+### [ex] exports
+
+```javascript
+exports $0
+```
+
 ### [cr] const x = require(y)
 
 ```javascript
