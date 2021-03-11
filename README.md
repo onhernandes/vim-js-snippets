@@ -75,6 +75,16 @@ exports $0
 const $1 = require('$1')
 ```
 
+### [im] import x from y
+```javascript
+import $1 from $2
+```
+
+### [imo] import { x } from y
+```javascript
+import { $1 } from $2
+```
+
 ### [cl] console.log
 
 ```javascript
