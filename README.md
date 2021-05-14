@@ -91,6 +91,12 @@ import { $1 } from $2
 console.log($1)
 ```
 
+### [ce] console.error
+
+```javascript
+console.error($1)
+```
+
 ### [cw] console.warn
 
 ```javascript
